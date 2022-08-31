@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/4ba198f83f.js" crossorigin="anonymous"></script>
+    <script defer src="./script.js"></script>
+</head>
+
+<body>
+    <nav class="nav">
+        <div>
+            <img src="./dist/images/logo.svg" alt="logo"> 
+        </div>
+    </nav>
+    <main class="main">
+        <div class="hero-mobile"></div>
+        <div class="container">
+            <div class="content">
+                <img class="logo" src="./dist/images/logo.svg" alt="logo">
+                <h1 class="heading-text"><span>We're</span> <br />coming <br />soon</h1>
+                <p class="content-text">Hello fellow shoppers! We're currently building our new fashion store. Add your
+                    email below to stay up-to-date with announcement and our launch deals</p>
+                <form class="form" id="form">
+                    <div class="form-control">
+                        <input id="email" type="email" name="email" aria-labelledby="email" placeholder="Email Address"><br>
+                        <i class="fa-solid fa-circle-exclamation"></i>
+                        <small id="error">Password cannot be empty</small>
+                    </div>
+                    <button class="btn" type="submit">
+                        <img src="./dist/images/icon-arrow.svg" alt="icon">
+                    </button>
+                </form>
+            </div>
+        </div>
+        <div class="hero-desktop"></div>
+    </main>
+</body>
+
+</html>
