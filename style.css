@@ -145,11 +145,12 @@ input {
 
 .form {
     margin-top: 40px;
-}
-
-.form-control {
     position: relative;
 }
+
+/* .form-control {
+    position: relative;
+} */
 
 .form-control.error input {
     border: 2px solid hsl(0, 93%, 68%);
@@ -160,7 +161,7 @@ input {
     position: absolute;
     z-index: 1;
     top: 15px;
-    right: 370px;
+    right: 60%;
     font-size: 20px;
 }
 
@@ -187,14 +188,14 @@ input {
     border-radius: 30px;
     position: absolute;
     z-index: 1;
-    left: 460px;
-    bottom: 121px;
+    right: 40%;
+    top: 0;
     padding-inline: 40px;
     cursor: pointer;
 }
 
 .btn:hover {
-    background-image: linear-gradient(to right, hsl(0, 100%, 98%), hsl(0, 73%, 88%));
+    background-image: linear-gradient(to right, hsl(0, 100%, 98%), hsl(0, 80%, 86%));
 }
 
 ::placeholder {
